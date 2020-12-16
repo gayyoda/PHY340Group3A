@@ -80,7 +80,6 @@
     display: grid;
     grid-template-columns: 10% 80% 10%;
     background-color: silver;
-    max-height: 300vh;
   }
   .txt-lnk{
     color: black;
@@ -126,6 +125,7 @@
   /**index.html**/
   #summary{
     grid-template-rows: 10% 90%;
+    height: 91vh;
   }
   #summary-title{
     text-align: center;
@@ -141,7 +141,7 @@
   }
   /**background.html**/
   #background{
-    height: 100vh;
+    height: 91vh;
     grid-template-rows: 10% 40% 10% 40%;
   }
   #nasa{
