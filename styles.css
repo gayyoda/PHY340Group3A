@@ -353,3 +353,15 @@
     grid-column: 2;
     margin-top: 10px
   }
+  /**medical problem**/
+  #medical-prob{
+    height: 230vh;
+    grid-template-rows: 5% 95%;
+  }
+  #medical-prob p{
+    margin-top: 5px;
+    text-align: justify;
+  }
+  #medical-prob h4{
+    margin-top: 5px;
+  }
