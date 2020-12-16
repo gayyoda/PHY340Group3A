@@ -80,7 +80,7 @@
     display: grid;
     grid-template-columns: 10% 80% 10%;
     background-color: silver;
-    height: 100vh;
+    max-height: 300vh;
   }
   .txt-lnk{
     color: black;
@@ -91,17 +91,49 @@
   .txt-lnk:visited{
     color: black;
   }
-  /**abstract.html**/
-  #abstract{
-    grid-template-rows: 20% 80%;
+  /**report txt pages**/
+  .report-txt{
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    grid-template-rows: 10% 90%;
+    background-color: silver;
+    height: 90vh;
   }
-  #abstract-title{
+  .report-title{
+    text-align: center;
+    grid-column: 2;
+    grid-row: 1;
+    margin-top: 20px;
+  }
+  .report-para{
+    margin-top: 10px;
+    text-align: justify;
+    grid-column: 2;
+    grid-row: 2;
+  }
+  /**ref links**/
+  .ref-lnk{
+    text-emphasis: bold;
+    text-decoration: none;
+    color: black;
+  }
+  .ref-lnk:hover{
+    color: white;
+  }
+  .ref-lnk:visited{
+    color: black;
+  }
+  /**index.html**/
+  #summary{
+    grid-template-rows: 10% 90%;
+  }
+  #summary-title{
     text-align: center;
     grid-row: 1;
     grid-column: 2;
     margin-top: 20px;
   }
-  #abstract-txt{
+  #summary-txt{
     text-align: justify;
     grid-row: 2;
     grid-column: 2;
@@ -109,6 +141,7 @@
   }
   /**background.html**/
   #background{
+    height: 100vh;
     grid-template-rows: 10% 40% 10% 40%;
   }
   #nasa{
@@ -119,12 +152,12 @@
   #nasa-txt{
     grid-row: 2;
     grid-column: 2;
-    margin-top: 10px;
+    margin-top: 5px;
   }
   #spacex{
     grid-row: 3;
     grid-column: 2;
-    margin-top: 20px;
+    margin-top: 10px;
   }
   #spacex-txt{
     grid-row: 4;
