@@ -377,6 +377,9 @@
     list-style-type: none;
     margin-top: 5px;
   }
+  #ref-list li::selection{
+    color: red;
+  }
   #crew-list{
     padding-left: 2%;
   }
