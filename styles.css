@@ -381,11 +381,14 @@
     color: red;
   }
   #crew-list{
-    padding-left: 2%;
+    margin-left: 2%;
   }
   #orbit-sol{
     height: 110vh;
   }
   #shortvlong{
     height: 180vh;
+  }
+  #mssion-equip li{
+    margin-left: 2%;
   }
